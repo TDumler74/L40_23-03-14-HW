@@ -16,11 +16,11 @@ public class Main {
 
         Square square= new Square("Square", 10);
         System.out.println(square);
-        //Square has area of 100.0
+        //Square has area of 100
 
         Rectangle rectangle=new Rectangle("Rectangle",5,10);
         System.out.println(rectangle);
-        //Rectangle has area of 50.0
+        //Rectangle has area of 50
 
         Circle circle=new Circle("Circle",5);
         System.out.println(circle);
