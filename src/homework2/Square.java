@@ -1,7 +1,7 @@
 package homework2;
-
 public class Square extends Area {
     //A=a*a
+
     int sideA;
     public Square(String name, int sideA) {
         super(name);
