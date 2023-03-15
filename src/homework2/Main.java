@@ -26,7 +26,8 @@ public class Main {
             area[i].speacialFeature();
             System.out.println("______________________________");
         }
-       //Circle has area of 78.5
+
+        //Circle has area of 78.5
         //Circle : has no corners
         //______________________________
         //Rectangle has area of 50
