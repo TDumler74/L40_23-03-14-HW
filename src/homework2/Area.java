@@ -2,11 +2,14 @@ package homework2;
 
 public class Area {
     String name;
-    int area;
+    double area;
 
     public Area(String name) {
         this.name = name;
         this.area = area;
+    }
+    public double getArea(){
+        return area;
     }
     public void speacialFeature(){
         System.out.println();
