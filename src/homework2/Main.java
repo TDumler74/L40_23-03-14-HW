@@ -25,11 +25,15 @@ public class Main {
         Circle circle=new Circle("Circle",5);
         //System.out.println(circle);
 
+
         //Circle has area of 78.5
 
         Area[]area={circle,rectangle,square};
         for(int i=0; i<area.length;i++){
             System.out.println(area[i]);
         }
+        //Circle has area of 78.5
+        //Rectangle has area of 50
+        //Square has area of 100
     }
 }
