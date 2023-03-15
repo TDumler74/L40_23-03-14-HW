@@ -1,12 +1,13 @@
 package homework2;
 
-public class Square {
+public class Square extends Area {
     //A=a*a
     String name;
     int sideA;
     int area;
 
     public Square(String name, int sideA) {
+        super(name);
         this.name = name;
         this.sideA = sideA;
     }
@@ -16,6 +17,6 @@ public class Square {
 
     @Override
     public String toString() {
-        return name + " has area of "+getArea();
+        return super.toString() +getArea();
     }
 }

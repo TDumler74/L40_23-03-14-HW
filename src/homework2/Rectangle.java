@@ -1,6 +1,6 @@
 package homework2;
 
-public class Rectangle  {
+public class Rectangle extends Area {
     // A=a*b
     String name;
     int sideA;
@@ -8,6 +8,7 @@ public class Rectangle  {
     int area;
 
     public Rectangle(String name, int sideA, int sideB) {
+        super(name);
         this.name = name;
         this.sideA = sideA;
         this.sideB = sideB;
@@ -19,6 +20,6 @@ public class Rectangle  {
 
     @Override
     public String toString() {
-        return name +" has area of "+getArea() ;
+        return super.toString()+getArea() ;
     }
 }
