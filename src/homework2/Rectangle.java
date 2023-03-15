@@ -22,4 +22,7 @@ public class Rectangle extends Area {
     public String toString() {
         return super.toString()+getArea() ;
     }
+    public void speacialFeature(){
+        System.out.println(name+ " : one side bigger than the other. ");
+    }
 }

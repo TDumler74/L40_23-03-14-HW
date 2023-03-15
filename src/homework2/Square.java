@@ -19,4 +19,8 @@ public class Square extends Area {
     public String toString() {
         return super.toString() +getArea();
     }
+    public void speacialFeature(){
+        System.out.println(name+" :all sides are the same.");
+
+    }
 }

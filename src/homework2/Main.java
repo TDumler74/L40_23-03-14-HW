@@ -15,25 +15,25 @@ public class Main {
     public static void main(String[] args) {
 
         Square square= new Square("Square", 10);
-      //  System.out.println(square);
-        //Square has area of 100
 
         Rectangle rectangle=new Rectangle("Rectangle",5,10);
-       // System.out.println(rectangle);
-        //Rectangle has area of 50
 
         Circle circle=new Circle("Circle",5);
-        //System.out.println(circle);
-
-
-        //Circle has area of 78.5
 
         Area[]area={circle,rectangle,square};
         for(int i=0; i<area.length;i++){
             System.out.println(area[i]);
+            area[i].speacialFeature();
+            System.out.println("______________________________");
         }
-        //Circle has area of 78.5
+       //Circle has area of 78.5
+        //Circle : has no corners
+        //______________________________
         //Rectangle has area of 50
+        //Rectangle : one side bigger than the other.
+        //______________________________
         //Square has area of 100
+        //Square :all sides are the same.
+        //______________________________
     }
 }

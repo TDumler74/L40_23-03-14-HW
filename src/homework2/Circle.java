@@ -22,4 +22,8 @@ public class Circle extends Area {
         return  super.toString() +getArea();
     }
 
+    @Override
+    public void speacialFeature() {
+        System.out.println(name+" : has no corners");
+    }
 }
