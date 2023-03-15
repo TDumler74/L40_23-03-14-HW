@@ -8,9 +8,13 @@ public class Area {
         this.name = name;
         this.area = area;
     }
+    public double getArea(){
+        return getArea();
+    }
     public void speacialFeature(){
         System.out.println();
     }
+
     public String toString(){
         return name+ " has area of ";
     }

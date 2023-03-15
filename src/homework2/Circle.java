@@ -2,8 +2,6 @@ package homework2;
 
 public class Circle extends Area {
     // A=pi*r*r
-    String name;
-    double area;
     double radius;
 
     public Circle(String name, double radius) {

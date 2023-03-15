@@ -2,16 +2,12 @@ package homework2;
 
 public class Square extends Area {
     //A=a*a
-    String name;
     int sideA;
-    int area;
-
     public Square(String name, int sideA) {
         super(name);
-        this.name = name;
         this.sideA = sideA;
     }
-    public int getArea(){
+    public double getArea(){
         return sideA*sideA;
     }
 

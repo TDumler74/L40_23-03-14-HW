@@ -2,19 +2,17 @@ package homework2;
 
 public class Rectangle extends Area {
     // A=a*b
-    String name;
     int sideA;
     int sideB;
     int area;
 
     public Rectangle(String name, int sideA, int sideB) {
         super(name);
-        this.name = name;
         this.sideA = sideA;
         this.sideB = sideB;
     }
 
-    public int getArea(){
+    public double getArea(){
         return sideA*sideB;
     }
 
